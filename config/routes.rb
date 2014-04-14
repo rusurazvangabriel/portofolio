@@ -56,7 +56,11 @@ Portofoliu::Application.routes.draw do
 root :to => 'static_pages#home'
 
 match 'home', to: 'static_pages#home', via: :get
-  match 'about',to: 'static_pages#about', via: :get
-  match 'contact',to: 'static_pages#contact', via: :get
-  
+match 'about',to: 'static_pages#about', via: :get
+match 'contact',to: 'static_pages#contact', via: :get
+match 'iMakeMusic', to: 'static_pages#iMakeMusic', via: 'get'
+match 'ASP_GuitarShop', to: 'static_pages#ASP_GuitarShop', via: 'get'
+match 'JavaChat', to: 'static_pages#JavaChat', via: 'get'
+match 'RailsEventManager', to: 'static_pages#RailsEventManager', via: 'get'
+match 'Snake', to: 'static_pages#Snake', via: 'get'
 end

@@ -7,5 +7,8 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
-  end	
+  end
+
+  def iMakeMusic
+  end
 end
