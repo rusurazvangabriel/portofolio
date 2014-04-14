@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" style="padding:20px">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>Memento - I want to know my thing!</title>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag "custom" => true %>
+    <%= stylesheet_link_tag "styles" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body style="" class="footer-fixed">
+    <%= render "shared/header" %>
+    <!-- start: MAIN CONTAINER -->
+    <div class="main-container" style="padding-top:10px; text-align:justify">
+                 <%= yield %>
+    </div>
+    <!-- end: MAIN CONTAINER -->
+    <%= render "shared/footer" %>
+</body>
+</html>
