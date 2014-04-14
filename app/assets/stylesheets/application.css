@@ -23,3 +23,15 @@ body {
 	font-family: Helvetica, Sans-Serif;
 
 }
+
+html
+{
+background: rgb(62,73,130);
+background: -moz-linear-gradient(top, rgba(62,73,130,1) 0%, rgba(65,95,127,1) 36%, rgba(58,71,122,1) 71%, rgba(45,59,130,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(62,73,130,1)), color-stop(36%,rgba(65,95,127,1)), color-stop(71%,rgba(58,71,122,1)), color-stop(100%,rgba(45,59,130,1)));
+background: -webkit-linear-gradient(top, rgba(62,73,130,1) 0%,rgba(65,95,127,1) 36%,rgba(58,71,122,1) 71%,rgba(45,59,130,1) 100%);
+background: -o-linear-gradient(top, rgba(62,73,130,1) 0%,rgba(65,95,127,1) 36%,rgba(58,71,122,1) 71%,rgba(45,59,130,1) 100%);
+background: -ms-linear-gradient(top, rgba(62,73,130,1) 0%,rgba(65,95,127,1) 36%,rgba(58,71,122,1) 71%,rgba(45,59,130,1) 100%);
+background: linear-gradient(to bottom, rgba(62,73,130,1) 0%,rgba(65,95,127,1) 36%,rgba(58,71,122,1) 71%,rgba(45,59,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e4982', endColorstr='#2d3b82',GradientType=0 );	
+}
